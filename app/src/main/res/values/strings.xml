@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Login - Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <!--    <string name="facebook_application_id" translatable="false">5787259921295945</string>-->
+    <!--    <string name="facebook_login_protocol_scheme" translatable="false">fbYOUR_APP_ID</string>-->
+
+    <string name="facebook_app_id">5787259921295945</string>
+    <string name="fb_login_protocol_scheme">fb5787259921295945</string>
+    <string name="facebook_client_token">bbdaf902c44d7598cfe856c3b151f6bb</string>
+
+
+</resources>
