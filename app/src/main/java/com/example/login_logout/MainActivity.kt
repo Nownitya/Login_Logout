@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
                 auth.signOut()
             } else {
                 LoginManager.getInstance().logInWithReadPermissions(this,
-                    listOf("email", "public_profile")
+                    listOf("email", "displayName")
                 )
             }
 

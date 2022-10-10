@@ -23,6 +23,9 @@ class FacebookActivity : AppCompatActivity() {
         binding.nameTV.text = auth.currentUser?.displayName
         binding.emailTV.text = auth.currentUser?.email
 
+        binding.signOutBTN.setOnClickListener {
+            auth.signOut()
+        }
 
         Log.d(TAG, "FacebookActivity")
     }
