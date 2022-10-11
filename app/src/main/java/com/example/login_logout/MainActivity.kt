@@ -48,8 +48,6 @@ class MainActivity : AppCompatActivity() {
         facebookInstance()
 
 
-
-
     }
 
     private fun facebookInstance() {
@@ -57,6 +55,8 @@ class MainActivity : AppCompatActivity() {
         binding.facebookLoginButton.setOnClickListener {
             if (userLoggedIn()) {
                 auth.signOut()
+//                startActivity(Intent(this, FacebookActivity::class.java))
+//                finish()
             } else {
                 LoginManager.getInstance().logInWithReadPermissions(this,
                     listOf("email", "displayName")
