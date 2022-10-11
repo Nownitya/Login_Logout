@@ -65,6 +65,17 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+//        binding.facebookLoginButton.setOnClickListener {
+//            var accessToken = AccessToken.getCurrentAccessToken()
+//            if (accessToken != null && accessToken.isExpired == false) {
+//                startActivity(Intent(this, FacebookActivity::class.java))
+//                finish()
+//
+//            }
+//        }
+
+
+
 //        buttonFacebookLogin.setReadPermissions("email", "public_profile")
 //        buttonFacebookLogin.registerCallback
         LoginManager.getInstance().registerCallback(callbackManager, object :
@@ -134,6 +145,7 @@ class MainActivity : AppCompatActivity() {
 //            intent.putExtra("email", user.email)
 //            intent.putExtra("name", user.displayName)
             startActivity(intent)
+            finish()
         }
     }
 
