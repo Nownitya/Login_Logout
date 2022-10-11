@@ -39,7 +39,8 @@ android {
 
 dependencies {
 
-    implementation 'com.google.firebase:firebase-auth:19.2.0'
+    implementation 'com.google.firebase:firebase-auth:21.0.8'
+//    implementation 'com.google.firebase:firebase-auth:19.2.0'
     def navigation_version = "2.5.2"
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'
